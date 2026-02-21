@@ -1,0 +1,200 @@
+{
+  "common": {
+    "actions": {
+      "cancel": "لغو",
+      "confirm": "تأیید",
+      "continue": "ادامه",
+      "goBack": "بازگشت",
+      "reset": "بازنشانی",
+      "submit": "ارسال"
+    },
+    "status": {
+      "loading": "در حال بارگذاری...",
+      "error": {
+        "default": "خطایی رخ داد",
+        "serverConnection": "اتصال به سرور برقرار نشد"
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "برای دسترسی وارد شوید",
+      "form": {
+        "email": {
+          "label": "آدرس ایمیل",
+          "required": "ایمیل الزامی است",
+          "placeholder": "me@example.com"
+        },
+        "password": {
+          "label": "رمز عبور",
+          "required": "رمز عبور الزامی است"
+        },
+        "actions": {
+          "signin": "ورود"
+        },
+        "alternativeText": {
+          "or": "یا"
+        }
+      },
+      "errors": {
+        "default": "ورود ناموفق",
+        "signin": "با حساب دیگری امتحان کنید",
+        "credentialsSignin": "اطلاعات وارد شده صحیح نیست"
+      }
+    }
+  },
+  "chat": {
+    "input": {
+      "placeholder": "پیام خود را اینجا بنویسید...",
+      "actions": {
+        "send": "ارسال پیام",
+        "stop": "توقف",
+        "attachFiles": "پیوست فایل"
+      }
+    },
+    "favorites": {
+      "use": "استفاده از پیام ذخیره شده",
+      "headline": "پیام‌های ذخیره شده"
+    },
+    "commands": {
+      "button": "ابزارها",
+      "changeTool": "تغییر ابزار",
+      "availableTools": "ابزارهای موجود"
+    },
+    "speech": {
+      "start": "شروع ضبط",
+      "stop": "توقف ضبط",
+      "connecting": "در حال اتصال"
+    },
+    "fileUpload": {
+      "dragDrop": "فایل‌ها را اینجا رها کنید",
+      "browse": "انتخاب فایل",
+      "sizeLimit": "حداکثر:",
+      "errors": {
+        "failed": "آپلود ناموفق",
+        "cancelled": "آپلود لغو شد"
+      },
+      "actions": {
+        "cancelUpload": "لغو آپلود",
+        "removeAttachment": "حذف پیوست"
+      }
+    },
+    "messages": {
+      "status": {
+        "using": "در حال استفاده",
+        "used": "استفاده شد"
+      },
+      "actions": {
+        "copy": {
+          "button": "کپی",
+          "success": "کپی شد!"
+        }
+      },
+      "feedback": {
+        "positive": "مفید بود",
+        "negative": "مفید نبود",
+        "edit": "ویرایش بازخورد",
+        "dialog": {
+          "title": "افزودن نظر",
+          "submit": "ارسال بازخورد",
+          "yourFeedback": "نظر شما..."
+        }
+      }
+    },
+    "history": {
+      "title": "ورودی‌های اخیر",
+      "empty": "خالی است...",
+      "show": "نمایش تاریخچه"
+    },
+    "settings": {
+      "title": "تنظیمات",
+      "customize": "تنظیمات گفتگو را اینجا شخصی‌سازی کنید"
+    },
+    "watermark": "هوش مصنوعی ممکن است اشتباه کند. اطلاعات مهم را بررسی کنید."
+  },
+  "threadHistory": {
+    "sidebar": {
+      "title": "گفتگوهای قبلی",
+      "filters": {
+        "search": "جستجو",
+        "placeholder": "جستجوی گفتگوها..."
+      },
+      "timeframes": {
+        "today": "امروز",
+        "yesterday": "دیروز",
+        "previous7days": "۷ روز گذشته",
+        "previous30days": "۳۰ روز گذشته"
+      },
+      "empty": "گفتگویی یافت نشد",
+      "actions": {
+        "close": "بستن",
+        "open": "باز کردن"
+      }
+    },
+    "thread": {
+      "untitled": "گفتگوی بدون عنوان",
+      "menu": {
+        "rename": "تغییر نام",
+        "share": "اشتراک‌گذاری",
+        "delete": "حذف"
+      },
+      "actions": {
+        "delete": {
+          "title": "تأیید حذف",
+          "description": "این گفتگو و تمام پیام‌های آن حذف خواهد شد",
+          "success": "حذف شد",
+          "inProgress": "در حال حذف"
+        },
+        "rename": {
+          "title": "تغییر نام",
+          "description": "نام جدید را وارد کنید",
+          "form": {
+            "name": {
+              "label": "نام",
+              "placeholder": "نام جدید"
+            }
+          },
+          "success": "تغییر نام یافت!",
+          "inProgress": "در حال تغییر نام"
+        }
+      }
+    }
+  },
+  "navigation": {
+    "header": {
+      "chat": "گفتگو",
+      "readme": "راهنما",
+      "theme": {
+        "light": "روشن",
+        "dark": "تاریک",
+        "system": "سیستم"
+      }
+    },
+    "newChat": {
+      "button": "گفتگوی جدید",
+      "dialog": {
+        "title": "گفتگوی جدید",
+        "description": "تاریخچه گفتگو پاک خواهد شد. ادامه می‌دهید؟",
+        "tooltip": "گفتگوی جدید"
+      }
+    },
+    "user": {
+      "menu": {
+        "settings": "تنظیمات",
+        "settingsKey": "S",
+        "apiKeys": "کلیدهای API",
+        "logout": "خروج"
+      }
+    }
+  },
+  "alerts": {
+    "info": "اطلاعات",
+    "note": "یادداشت",
+    "tip": "نکته",
+    "important": "مهم",
+    "warning": "هشدار",
+    "caution": "احتیاط",
+    "success": "موفق",
+    "help": "راهنما"
+  }
+}

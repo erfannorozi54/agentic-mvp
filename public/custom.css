@@ -1,0 +1,51 @@
+/* RTL Support for Persian */
+body, html {
+  direction: rtl;
+  font-family: 'Vazirmatn', 'Tahoma', sans-serif;
+}
+
+/* Import Vazirmatn font */
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&display=swap');
+
+/* Message styling */
+.message-content {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Custom colors */
+:root {
+  --primary-color: #6366f1;
+  --accent-color: #8b5cf6;
+}
+
+/* Header styling */
+header {
+  background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%) !important;
+}
+
+/* Chat input RTL */
+textarea, input {
+  direction: rtl;
+  text-align: right;
+  font-family: 'Vazirmatn', 'Tahoma', sans-serif !important;
+}
+
+/* Chat composer placeholder */
+textarea::placeholder {
+  text-align: right;
+  direction: rtl;
+}
+
+/* Tool logs styling */
+[data-author="گزارش ابزار"], [data-author="نتیجه ابزار"] {
+  border-right: 3px solid var(--accent-color);
+  padding-right: 12px;
+}
+
+/* Status messages */
+[data-author="سیستم"] {
+  background: rgba(99, 102, 241, 0.1);
+  border-radius: 8px;
+  padding: 8px 12px;
+}
